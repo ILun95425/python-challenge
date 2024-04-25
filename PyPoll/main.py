@@ -71,7 +71,7 @@ fileout = os.path.join(output_folder, 'Election Results.txt')
 with open(fileout, 'w') as file:
     file.write("Election Results\n")
     file.write("---------------------------------\n")
-    file.write("Total Votes: {total_votes}")
+    file.write(f"Total Votes: {total_votes}")
     file.write("---------------------------------\n")
     for candidate, results in candidate_results.items():
         file.write(f"{candidate}: {results['Percentage']:.3f}% ({results['Votes']})\n")
