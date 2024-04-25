@@ -37,17 +37,6 @@ for candidate, votes in candidatesNvotes.items():
 
 winner = max(candidate_results, key=lambda x: candidate_results[x]['Votes'])
 
-#     for row in read:
-#         total_votes += 1
-#         candidate = row[2]  
-#         if candidate not in candidates:
-#             candidates.append(candidate)
-#             candidate_results[candidate] = {'Votes': 0, 'Percentage': 0}
-#         candidate_results[candidate]['Votes'] += 1
-
-
-# winner = max(candidate_results, key=lambda x: candidate_results[x]['Votes'])
-
 
 
 # print method 2
